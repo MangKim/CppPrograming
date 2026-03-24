@@ -55,6 +55,7 @@ int main() {
 ```
 이미 생성된 전역 객체들을 불러와서 면적을 계산하고 출력
 
+<img width="1098" height="634" alt="image" src="https://github.com/user-attachments/assets/ab32ee27-e342-41c8-aaf5-caa40281699c" />
 
 
 
