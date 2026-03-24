@@ -4,6 +4,10 @@
 ```
 C++의 표준 입출력 라이브러리
 ```
+#include <windows.h>
+```
+
+```
 using namespace std;
 ```
 std::cout처럼 매번 앞에 std::를 붙이는 번거로움을 피하기 위해 표준 이름 공간을 사용하겠다고 선언
