@@ -28,31 +28,28 @@ public:
         height = 1;
         cout << "밑변 " << width << " 높이 " << height << "인 삼각형 생성" << endl;
     }
-```
-아무 값도 안 주면 1x1 크기로 만들고, 값을 주면 그 크기에 맞춰서 삼각형 생성, 생성될 때마다 "생성" 메시지를 출력 
 
-```    
     Triangle(double w, double h) {
         width = w;
         height = h;
         cout << "밑변 " << width << " 높이 " << height << "인 삼각형 생성" << endl;
     }
 ```
-getArea는 저장된 데이터를 사용해 넓이를 계산
+아무 값도 안 주면 1x1 크기로 만들고, 값을 주면 그 크기에 맞춰서 삼각형 생성, 생성될 때마다 생성 메시지를 출력 
 
 ```
     ~Triangle() {
         cout << "밑변 " << width << " 높이 " << height << "인 삼각형 소멸" << endl;
     }
 ```
-
+프로그램이 끝나거나 객체가 사라질 때 자동으로 실행되어 소멸 메시지 출력
 ```
     double getArea() {
         return (width * height) / 2.0;
     }
 };
 ```
-
+삼각형의 넓이를 계산하는 함수
 ```
 int main() {
 ```
