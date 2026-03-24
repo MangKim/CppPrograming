@@ -71,3 +71,12 @@ int main() {
 }
 ```
 프로그램 종료
+
+<img width="1107" height="601" alt="image" src="https://github.com/user-attachments/assets/50419c5a-376f-4eee-bc09-eb767958918a" />
+
+
+
+
+
+
+
