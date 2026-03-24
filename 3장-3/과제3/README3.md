@@ -47,6 +47,7 @@ Triangle tri2(2, 2);
 프로그램이 실행되자마자 main 함수에 진입하기전에 메모리에 올라가며 생성자가 호출
 ```
 int main() {
+    SetConsoleOutputCP(CP_UTF8);
     cout << "삼각형의 면적은 " << tri2.getArea() << endl;
     cout << "삼각형의 면적은 " << tri1.getArea() << endl;
 
